@@ -15,7 +15,16 @@ Use the pre-trained model of the network, add a new fully connected layer, and t
          * CATS_1.jpg
          * ...
       * ...
-  
+    * val
+      *  BEAR
+         *  BEAR_100.jpg
+         *  BEAR_101.jpg
+         *  ...
+      * CATS
+         * CATS_100.jpg
+         * CATS_101.jpg
+         * ...
+      * ...
 
   * `extract_feats.py`. Modify your own database path (database to be retrieved), and then run the program, the characteristics of all pictures in the database will be stored in a dictionary for later retrieval.
   
