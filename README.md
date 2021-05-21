@@ -1,2 +1,2 @@
 # Image-retrieval-based-EfficientNet-B0
-Added a new fully connected layer to extract 512-dimensional features of the image for image retrieval.
+Use the pre-trained model of the network, add a new fully connected layer, and train on your own data set. When performing feature extraction, the final classifier layer is removed, and 512-dimensional features of the image are obtained for retrieval.
