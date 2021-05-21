@@ -3,3 +3,5 @@ Use the pre-trained model of the network, add a new fully connected layer, and t
 ## Usage
   * Install with `pip install efficientnet_pytorch`. For more information, please go to https://github.com/lukemelas/EfficientNet-PyTorch
   * In `main.py`,To modify related parameters, please change the path of the training set and test set to your own path. This file is mainly for classification training to obtain a model suitable for your own data set.
+  * `extract_feats.py`. Modify your own database path (database to be retrieved), and then run the program, the characteristics of all pictures in the database will be stored in a dictionary for later retrieval.
+  * 
