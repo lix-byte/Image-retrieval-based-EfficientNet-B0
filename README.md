@@ -32,6 +32,12 @@ Use the pre-trained model of the network, add a new fully connected layer, and t
        * 1.jpg
        * 2.jpg
        * 3.jpg
-       * ...  
+       * ... 
+  
+  * `retrieval.py`. Enter the path of the picture you want to retrieve, then you will get the five images that the program thinks are most similar.
+
+
+
+  
   
   
